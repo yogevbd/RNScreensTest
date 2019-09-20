@@ -1,9 +1,9 @@
-workflow "Verify labels" {
+workflow "Push" {
   on = "push"
   resolves = "VerifyLabels"
 }
 
-workflow "Verify labels" {
+workflow "Label change" {
   on = "label"
   resolves = "VerifyLabels"
 }
