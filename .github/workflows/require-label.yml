@@ -11,4 +11,3 @@ jobs:
     - uses: yogevbd/require-label-action@master
       with:
         valid-labels: "bug,enhancement,feature"
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
