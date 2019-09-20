@@ -1,2 +1,2 @@
-- name: Enforce PR label
-  uses: yogevbd/enforce-label-action@1.0.0
+name: Enforce PR label
+- uses: yogevbd/enforce-label-action@1.0.0
