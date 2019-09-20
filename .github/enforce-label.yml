@@ -5,7 +5,7 @@ on:
     types: [labeled, unlabeled, opened, edited]
 
 jobs:
-  require-label:
+  enforce-label:
     runs-on: ubuntu-latest
     steps:
     - uses: yogevbd/enforce-label-action@1.0.0
