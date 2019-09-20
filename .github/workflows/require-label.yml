@@ -7,7 +7,6 @@ on:
 jobs:
   require-label:
     runs-on: ubuntu-latest
-    id: requirelabel
     steps:
     - uses: yogevbd/require-label-action@master
       with:
