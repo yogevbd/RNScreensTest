@@ -1,5 +1,5 @@
 workflow "Label change" {
-  on = ["label","push"]
+  on = "pull_request"
   resolves = "VerifyLabels"
 }
 
